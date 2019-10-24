@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          Cart -
+        </li>
+        <li> Customer information -</li>
+        <li>Shiping Method -</li>
+        <li><span><h4>Payment Method </h4></li></span>
+      </ul>
+    </header>
+    <div> 
+      <h1>
+        Payment information
+      </h1>
+      <form><label class="card"></label>
+         <span class="text">CARD NUMBER </span><br>
+         <input tupe="number">
+         
+        
+          <ul>  
+               <li><span class="text">CARD HOLDER<br></span>
+               <input type="holder"><BR></li>
+
+                <li><span class="text">EXP DATE<br></span>
+                <input type="DATE"><BR></li>
+
+                  <li><span class="text">CVC<br></span>
+               <input type="CVC"></li>
+
+           </ul>
+        
+        
+           
+          
+        </label>
+
+      </form>
+    </div>
+    <form method="POST" action="#">
+      <h1>Billing adress</h1>
+    <!-- Використовуйте для блоку Billing address -->
+      <label class="container">
+        <span class="text"> Same as the shipping adress </span>
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">
+        <span class="text"> Use a different billing address </span>
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+      </label>
+     
+    </form>
+  </body>
+</html>
